@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaquery.css">
     <title>Mirae Asset Center 1</title>
@@ -69,7 +70,7 @@
                 <section class="convienient_inner_content">
                     <article class="convienientbox box1">
                         <div class="convienientImgBox">
-                            <img src="img/gallery.png" alt="Convenience Image">
+                            <img data-aos="zoom-in" src="img/gallery.png" alt="Convenience Image">
                         </div><br>
                         <div class="convienientTextBox">
                             <h4 class="KF">KF GALLERY</h4><br>
@@ -82,7 +83,7 @@
                     </article>
                     <article class="convienientbox box2">
                         <div class="convienientImgBox">
-                            <img src="img/wellness.png" alt="Convenience Image">
+                            <img data-aos="zoom-in" src="img/wellness.png" alt="Convenience Image">
                         </div><br>
                         <div class="convienientTextBox">
                             <h4>센터원 Wellness</h4><br>
@@ -95,7 +96,7 @@
                     </article>
                     <article class="convienientbox box3">
                         <div class="convienientImgBox">
-                            <img src="img/sparkplus.png" alt="Convenience Image">
+                            <img data-aos="zoom-in" src="img/sparkplus.png" alt="Convenience Image">
                         </div><br>
                         <div class="convienientTextBox">
                             <h4>SPARKPLUS</h4><br>
@@ -196,7 +197,8 @@
                 <section class="onlycenter_inner_content">
                     <article class="onlycenterbox box1_onlycenter">
                         <div class="onlycenterImgBox">
-                            <img src="img/mother.png" alt="Mother Image">
+                            <img data-aos="fade-up"
+                            data-aos-duration="1000" src="img/mother.png" alt="Mother Image">
                         </div><br>
                         <div class="onlycenterTextBox">
                             <h4>프라임 서비스</h4><br>
@@ -208,7 +210,8 @@
                     </article>
                     <article class="onlycenterbox box2_onlycenter">
                         <div class="onlycenterImgBox">
-                            <img src="img/gas.png" alt="onlycenter Image">
+                            <img data-aos="fade-up"
+                            data-aos-duration="2000" src="img/gas.png" alt="onlycenter Image">
                         </div><br>
                         <div class="onlycenterTextBox">
                             <h4>E-pit 전기차 충전소</h4><br>
@@ -220,7 +223,8 @@
                     </article>
                     <article class="onlycenterbox box3_onlycenter">
                         <div class="onlycenterImgBox">
-                            <img src="img/filling station.png" alt="onlycenter Image">
+                            <img data-aos="fade-up"
+                            data-aos-duration="3000" src="img/filling station.png" alt="onlycenter Image">
                         </div><br>
                         <div class="onlycenterTextBox">
                             <h4>주차요금 할인</h4><br>
@@ -259,11 +263,11 @@
                         <li class="christmasPlus"><img src="img/plus.png" alt=""></li>
                     </ul>
                     <section id="chri_slider_wrapper">
-                        <article id="christmasImgBox" class="chri_slide">
-                            <img src="img/christmas.png" alt="">
+                        <article id="christmasImgBox"  class="chri_slide">
+                            <img data-aos="fade-up" src="img/christmas.png" alt="">
                         </article>
                         <article id="christmasImgBox" class="chri_slide">
-                            <img src="img/filling station.png" alt="">
+                            <img data-aos="fade-up" src="img/filling station.png" alt="">
                         </article><br>
                         <p class="prev"><</p>
                         <p class="next">></p>
@@ -332,6 +336,11 @@
     </footer>
 </body>
 </html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+  </script>
 
 <script src="js/script.js"></script>
 </body>
